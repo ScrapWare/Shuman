@@ -1,0 +1,11 @@
+schuman: Schuman resonance oscillator
+
+    -o  output filename(default is /dev/dsp)
+    -s  output seconds(1-600)
+    -l  output level(volume 1-99)
+
+Version: 0.72b (C)2015 ScrapWare https://github.com/ScrapWare
+
+
+Q. cannot find /dev/dsp?
+A. modprobe snd_pcm_oss
